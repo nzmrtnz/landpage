@@ -1,0 +1,146 @@
+html {
+    background-color: #353535;
+    color: #ffffff;
+    margin: 0px; padding: 0px; border: 0px;
+    font-family: ;
+}
+
+body {
+    margin: 0px; padding: 0px; border: 0px;
+}
+
+
+
+/*Navegación*/
+
+nav {
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    }
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+nav ul li {
+    display: flex;
+    text-decoration: none;
+    margin-top: 15px; margin-inline: 100px; padding: 0px; border: 0px;
+}
+
+
+/*intro*/
+
+.intro {
+    display: flex;
+    margin: 0px; padding: 0px;
+    width: 100%; height: 100vh;
+    background-image: url(PICS/intro.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.textoprincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 4vw;
+    }
+
+.intro h1 {
+    font-size: 4.5vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0px; 
+}
+
+.intro h2 {
+    font-size: 3vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+
+
+/*Sobre mí*/
+
+#sobremi {
+    display: flex;
+    height: 100%; width: 100%;  
+}
+
+.empty {
+    background-color: #151515;
+    margin: 0px; border: 0px;
+    height: 100%; width: 100%;
+    border-radius: 0px 100px 100px 0px;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#sobremi figure {
+    padding: 0px; margin: 0px; border: 0px;
+}
+
+#sobremi img {
+    width: 50vw;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100px 0px 0px 100px;
+}
+
+.sobremidiv h1 {
+    padding: 40px; padding-bottom: 0px;
+    margin: 0px;
+    font-size: 5.5vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#sobremi h2 {
+    padding: 40px; padding-top: 20px;
+    margin: 0px;
+    font-size: 2.30vw;
+}
+
+
+/*Servicios*/
+
+#servicios {
+    display: flex;
+    height: 100%; width: 100%;
+}
+
+
+
+
+/*Contacto*/
+
+#contacto {
+    display: flex;
+    width: 100%; height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+}
+
+.redes img {
+    display: flex;
+    height: 25vw;
+    filter: invert(1);
+    padding: 30px;
+}
